@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Jenkins_CICD_DemoTest.Jenkins_CICD_Test
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 93.74 s -- in com.Jenkins_CICD_DemoTest.Jenkins_CICD_Test
