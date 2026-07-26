@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.radioButtonsCount">
+        <methods>
+          <include name="Spicejet"/>
+        </methods>
+      </class> <!-- com.selenium.radioButtonsCount -->
+      <class name="com.SeleniumAlerts.JavaScriptAlerts">
+        <methods>
+          <include name="TestpopUps"/>
+        </methods>
+      </class> <!-- com.SeleniumAlerts.JavaScriptAlerts -->
+      <class name="com.selenium.ScrollUpandDown">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.selenium.ScrollUpandDown -->
+      <class name="dropDownBox.Drop">
+        <methods>
+          <include name="IDLocator"/>
+        </methods>
+      </class> <!-- dropDownBox.Drop -->
+      <class name="com.navigation.navigation">
+        <methods>
+          <include name="NavigateRefresh"/>
+        </methods>
+      </class> <!-- com.navigation.navigation -->
+      <class name="com.OpenCart.OpenCartProject">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="openCartTest"/>
+        </methods>
+      </class> <!-- com.OpenCart.OpenCartProject -->
+      <class name="com.selenium.DragAndDrop">
+        <methods>
+          <include name="DragDrop"/>
+        </methods>
+      </class> <!-- com.selenium.DragAndDrop -->
+      <class name="com.navigation.BrowserNavigationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="navigationTest"/>
+        </methods>
+      </class> <!-- com.navigation.BrowserNavigationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

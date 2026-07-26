@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SeleniumAlerts.JavaScriptAlerts">
+        <methods>
+          <include name="TestpopUps"/>
+        </methods>
+      </class> <!-- com.SeleniumAlerts.JavaScriptAlerts -->
+      <class name="dropDownBox.Drop">
+        <methods>
+          <include name="IDLocator"/>
+        </methods>
+      </class> <!-- dropDownBox.Drop -->
+      <class name="com.selenium.radioButtonsCount">
+        <methods>
+          <include name="Spicejet"/>
+        </methods>
+      </class> <!-- com.selenium.radioButtonsCount -->
+      <class name="com.selenium.DragAndDrop">
+        <methods>
+          <include name="DragDrop"/>
+        </methods>
+      </class> <!-- com.selenium.DragAndDrop -->
+      <class name="com.OpenCart.OpenCartProject">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="openCartTest"/>
+        </methods>
+      </class> <!-- com.OpenCart.OpenCartProject -->
+      <class name="WebDriver.Commands.BrowserCommands">
+        <methods>
+          <include name="ChromeBrowserTest"/>
+          <include name="FirefoxBrowserTest"/>
+        </methods>
+      </class> <!-- WebDriver.Commands.BrowserCommands -->
+      <class name="com.navigation.navigation">
+        <methods>
+          <include name="navigationDemo"/>
+          <include name="NavigateRefresh"/>
+          <include name="NavigateForward"/>
+        </methods>
+      </class> <!-- com.navigation.navigation -->
+      <class name="com.navigation.BrowserNavigationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="navigationTest"/>
+        </methods>
+      </class> <!-- com.navigation.BrowserNavigationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
