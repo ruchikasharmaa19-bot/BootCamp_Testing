@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-27T11:23:40 IST" name="Default suite" finished-at="2026-07-27T11:23:46 IST" duration-ms="5511">
+    <groups>
+    </groups>
+    <test started-at="2026-07-27T11:23:40 IST" name="Default test" finished-at="2026-07-27T11:23:46 IST" duration-ms="5511">
+      <class name="RestAssuredBDD.PostRequest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAssuredBDD.PostRequest@53f3bdbd]" started-at="2026-07-27T11:23:40 IST" name="setup" finished-at="2026-07-27T11:23:41 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostRequestComplete()[pri:1, instance:RestAssuredBDD.PostRequest@53f3bdbd]" started-at="2026-07-27T11:23:41 IST" name="testPostRequestComplete" finished-at="2026-07-27T11:23:46 IST" duration-ms="4270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestComplete -->
+      </class> <!-- RestAssuredBDD.PostRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

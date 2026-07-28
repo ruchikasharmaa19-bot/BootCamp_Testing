@@ -1,0 +1,1 @@
+{"uuid":"18efaf36-e0c5-4682-9e30-52408c3e3ef7","name":"RestAssuredBDD.PostRequest","children":["edea554d-2aa7-4e31-9880-146bbfb3243c"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1785131620854,"stop":1785131621697}],"afters":[],"start":1785131620780,"stop":1785131626301}
